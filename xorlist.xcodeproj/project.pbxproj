@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE7922BF1327EB0A004E230B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7922BE1327EB0A004E230B /* Cocoa.framework */; };
+		BE7922C91327EB0A004E230B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE7922C71327EB0A004E230B /* InfoPlist.strings */; };
+		BE7922CC1327EB0A004E230B /* xorlistTest.h in Resources */ = {isa = PBXBuildFile; fileRef = BE7922CB1327EB0A004E230B /* xorlistTest.h */; };
+		BE7922CE1327EB0A004E230B /* xorlistTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7922CD1327EB0A004E230B /* xorlistTest.m */; };
+		BE94C2121325458B003307F6 /* xorlist.c in Sources */ = {isa = PBXBuildFile; fileRef = BE94C2101325458B003307F6 /* xorlist.c */; };
+		BE94C2131325458B003307F6 /* xorlist.h in Headers */ = {isa = PBXBuildFile; fileRef = BE94C2111325458B003307F6 /* xorlist.h */; };
+		BEA34EE4134FFBC00008DDFF /* xorlist.c in Sources */ = {isa = PBXBuildFile; fileRef = BE94C2101325458B003307F6 /* xorlist.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE7922BC1327EB0A004E230B /* xorlistTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xorlistTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7922BE1327EB0A004E230B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BE7922C11327EB0A004E230B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BE7922C21327EB0A004E230B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BE7922C31327EB0A004E230B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE7922C61327EB0A004E230B /* xorlistTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xorlistTest-Info.plist"; sourceTree = "<group>"; };
+		BE7922C81327EB0A004E230B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE7922CA1327EB0A004E230B /* xorlistTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xorlistTest-Prefix.pch"; sourceTree = "<group>"; };
+		BE7922CB1327EB0A004E230B /* xorlistTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xorlistTest.h; sourceTree = "<group>"; };
+		BE7922CD1327EB0A004E230B /* xorlistTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xorlistTest.m; sourceTree = "<group>"; };
+		BE94C20913254571003307F6 /* libxorlist.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxorlist.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE94C2101325458B003307F6 /* xorlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xorlist.c; sourceTree = "<group>"; };
+		BE94C2111325458B003307F6 /* xorlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xorlist.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE7922B81327EB0A004E230B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7922BF1327EB0A004E230B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE94C20613254571003307F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE7922BD1327EB0A004E230B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE7922BE1327EB0A004E230B /* Cocoa.framework */,
+				BE7922C01327EB0A004E230B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE7922C01327EB0A004E230B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE7922C11327EB0A004E230B /* AppKit.framework */,
+				BE7922C21327EB0A004E230B /* CoreData.framework */,
+				BE7922C31327EB0A004E230B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BE7922C41327EB0A004E230B /* xorlistTest */ = {
+			isa = PBXGroup;
+			children = (
+				BE7922CB1327EB0A004E230B /* xorlistTest.h */,
+				BE7922CD1327EB0A004E230B /* xorlistTest.m */,
+				BE7922C51327EB0A004E230B /* Supporting Files */,
+			);
+			path = xorlistTest;
+			sourceTree = "<group>";
+		};
+		BE7922C51327EB0A004E230B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE7922C61327EB0A004E230B /* xorlistTest-Info.plist */,
+				BE7922C71327EB0A004E230B /* InfoPlist.strings */,
+				BE7922CA1327EB0A004E230B /* xorlistTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE94C1FE13254571003307F6 = {
+			isa = PBXGroup;
+			children = (
+				BE94C2111325458B003307F6 /* xorlist.h */,
+				BE94C2101325458B003307F6 /* xorlist.c */,
+				BE7922C41327EB0A004E230B /* xorlistTest */,
+				BE7922BD1327EB0A004E230B /* Frameworks */,
+				BE94C20A13254571003307F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE94C20A13254571003307F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE94C20913254571003307F6 /* libxorlist.a */,
+				BE7922BC1327EB0A004E230B /* xorlistTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BE94C20713254571003307F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE94C2131325458B003307F6 /* xorlist.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BE7922BB1327EB0A004E230B /* xorlistTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7922CF1327EB0A004E230B /* Build configuration list for PBXNativeTarget "xorlistTest" */;
+			buildPhases = (
+				BE7922B71327EB0A004E230B /* Sources */,
+				BE7922B81327EB0A004E230B /* Frameworks */,
+				BE7922B91327EB0A004E230B /* Resources */,
+				BE7922BA1327EB0A004E230B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xorlistTest;
+			productName = xorlistTest;
+			productReference = BE7922BC1327EB0A004E230B /* xorlistTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BE94C20813254571003307F6 /* xorlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE94C20D13254571003307F6 /* Build configuration list for PBXNativeTarget "xorlist" */;
+			buildPhases = (
+				BE94C20513254571003307F6 /* Sources */,
+				BE94C20613254571003307F6 /* Frameworks */,
+				BE94C20713254571003307F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xorlist;
+			productName = xorlinkedlist;
+			productReference = BE94C20913254571003307F6 /* libxorlist.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE94C20013254571003307F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SoftwareElves;
+			};
+			buildConfigurationList = BE94C20313254571003307F6 /* Build configuration list for PBXProject "xorlist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE94C1FE13254571003307F6;
+			productRefGroup = BE94C20A13254571003307F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE94C20813254571003307F6 /* xorlist */,
+				BE7922BB1327EB0A004E230B /* xorlistTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE7922B91327EB0A004E230B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7922C91327EB0A004E230B /* InfoPlist.strings in Resources */,
+				BE7922CC1327EB0A004E230B /* xorlistTest.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE7922BA1327EB0A004E230B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE7922B71327EB0A004E230B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7922CE1327EB0A004E230B /* xorlistTest.m in Sources */,
+				BEA34EE4134FFBC00008DDFF /* xorlist.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE94C20513254571003307F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE94C2121325458B003307F6 /* xorlist.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE7922C71327EB0A004E230B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7922C81327EB0A004E230B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE7922D01327EB0A004E230B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xorlistTest/xorlistTest-Prefix.pch";
+				INFOPLIST_FILE = "xorlistTest/xorlistTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BE7922D11327EB0A004E230B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xorlistTest/xorlistTest-Prefix.pch";
+				INFOPLIST_FILE = "xorlistTest/xorlistTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		BE94C20B13254571003307F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE94C20C13254571003307F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE94C20E13254571003307F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = xorlist;
+			};
+			name = Debug;
+		};
+		BE94C20F13254571003307F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = xorlist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE7922CF1327EB0A004E230B /* Build configuration list for PBXNativeTarget "xorlistTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7922D01327EB0A004E230B /* Debug */,
+				BE7922D11327EB0A004E230B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE94C20313254571003307F6 /* Build configuration list for PBXProject "xorlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE94C20B13254571003307F6 /* Debug */,
+				BE94C20C13254571003307F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE94C20D13254571003307F6 /* Build configuration list for PBXNativeTarget "xorlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE94C20E13254571003307F6 /* Debug */,
+				BE94C20F13254571003307F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE94C20013254571003307F6 /* Project object */;
+}
